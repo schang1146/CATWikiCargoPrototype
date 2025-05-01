@@ -1,0 +1,6 @@
+.idea
+.env
+volumes/mariadb/data
+*.tar.gz
+*.zip
+.DS_Store
