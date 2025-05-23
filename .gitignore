@@ -3,3 +3,4 @@
 *.tar.gz
 *.zip
 .DS_Store
+volumes/mariadb/
