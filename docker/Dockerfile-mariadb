@@ -1,0 +1,7 @@
+FROM mariadb:10.9
+
+# Install client tools, healthcheck support, etc.
+RUN set -eux; \
+    apt-get update; \
+    apt-get install -y --no-install-recommends mariadb-client netcat-openbsd; \
+    rm -rf /var/lib/apt/lists/* \
