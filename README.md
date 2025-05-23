@@ -1,3 +1,17 @@
+# Usage
+
+Start:  `./start.sh`
+
+Stop:   `./stop.sh`
+
+Restore to initial state (with test Pages and emtpy cargo tables): 
+
+`git checkout volumes`
+
+Certainly not ideal or best practice but I didn't get the `custom_docker_images` branch with baked in data in the image(s) to work and time is getting on.
+
+
+
 # Cargo Setup
 
 see: https://www.mediawiki.org/wiki/Extension:Cargo/Quick_start_guide
