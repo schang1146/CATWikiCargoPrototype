@@ -2,6 +2,8 @@
 
 Start:  `./start.sh`
 
+Open:   http://localhost:8080/
+
 Stop:   `./stop.sh`
 
 Restore to initial state (with test Pages and emtpy cargo tables): 
@@ -15,6 +17,7 @@ Certainly not ideal or best practice but I didn't get the `custom_docker_images`
 # Cargo Setup
 
 see: https://www.mediawiki.org/wiki/Extension:Cargo/Quick_start_guide
+
 see: https://www.mediawiki.org/wiki/Extension:Cargo/Storing_data
 
 ## Create Cargo Template
@@ -24,7 +27,7 @@ In WikiMedia search box enter:    `Template:BrowserExtensionTemplate`
 (Will prompt to create if not in existence)
 
 
-e.g. direct link:       http://localhost/index.php?title=Template:BrowserExtensionTemplate&action=edit&redlink=1
+e.g. direct link:       http://localhost:8080/index.php?title=Template:BrowserExtensionTemplate&action=edit&redlink=1
 
 ```
 <noinclude>
@@ -47,14 +50,14 @@ Summary:    `Browser Extension Cargo Template`
 
 (fails) `docker-compose exec -T mediawiki "cd maintenance && php cargoRecreateData.php"`
 
-Open: http://localhost/index.php/Template:BrowserExtensionTemplate?action=recreatedata
+Open: http://localhost:8080/index.php/Template:BrowserExtensionTemplate?action=recreatedata
 Click OK
 
 
 
 ## Adding Cargo markup to to a page example
 
-Goto a pge, e,g,:   http://localhost/index.php/Peloton
+Goto a pge, e,g,:   http://localhost:8080/index.php/Peloton
 
 Click edit and add near top, below `InfoBoxCompany`:
 
@@ -67,7 +70,7 @@ Click edit and add near top, below `InfoBoxCompany`:
 
 ## Cargo schema updates
 
-Goto the Cargo template, e.g. http://localhost/index.php?title=Template:BrowserExtensionTemplate
+Goto the Cargo template, e.g. http://localhost:8080/index.php?title=Template:BrowserExtensionTemplate
 
 Regenerate the tables
 (A few UI confirmation clicks are required)
