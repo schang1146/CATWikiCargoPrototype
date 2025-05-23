@@ -22,7 +22,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 # $wgDisableOutputCompression = true;
 
 $wgSitename = "catwiki";
-$wgMetaNamespace = "Catwiki";
+$wgMetaNamespace = "catwiki";
 
 ## The URL base path to the directory containing the wiki;
 ## defaults for all runtime URL paths are based off of this.
@@ -146,3 +146,6 @@ wfLoadSkin( 'Vector' );
 # Add more configuration options below.
 
 wfLoadExtension( 'Cargo' );
+
+
+$wgShowExceptionDetails = true;

@@ -1,6 +1,6 @@
 services:
   mediawiki:
-    image: mediawiki:1.43.1-fpm-alpine
+    image: mediawiki:1.43.1
     container_name: mediawiki
     ports:
       - "8080:80"

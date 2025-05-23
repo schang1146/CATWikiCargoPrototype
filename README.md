@@ -158,3 +158,9 @@ docker inspect --format='{{json .State.Health}}' `docker ps -q -f "name=mediawik
 Add this ot LocalSettings.php
 
 $wgShowExceptionDetails = true;
+
+
+
+# Initial MediaWiki Setup
+
+goto:   localhost:8080/mw-config/
