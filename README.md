@@ -1,5 +1,14 @@
 # Usage
 
+> ![NOTE]
+> If you're cloning this repository, make sure that the mediawiki extensions are loaded/installed.
+>
+> If starting fresh, run the command:
+> `git clone --recurse-submodules $REPO_URL`
+>
+> If you've already cloned the repo, load the submodules with:
+> `git submomdule update --init --recursive`
+
 Start:  `./start.sh`
 
 Open:   http://localhost:8080/
