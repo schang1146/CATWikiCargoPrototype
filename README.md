@@ -48,7 +48,9 @@ Summary:    `Browser Extension Cargo Template`
 
 ## Create cargo tables:
 
-(fails) `docker-compose exec -T mediawiki "cd maintenance && php cargoRecreateData.php"`
+`docker exec -it mediawiki php extensions/Cargo/maintenance/cargoRecreateData.php`
+
+OR
 
 Open: http://localhost:8080/index.php/Template:BrowserExtensionTemplate?action=recreatedata
 Click OK
