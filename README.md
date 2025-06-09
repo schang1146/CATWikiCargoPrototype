@@ -6,7 +6,7 @@ Open:   http://localhost:8080/
 
 Stop:   `./stop.sh`
 
-Restore to initial state (with test Pages and emtpy cargo tables): 
+Restore to initial state (with test Pages and empty cargo tables): 
 
 `git checkout volumes`
 
@@ -70,7 +70,7 @@ Click edit and add near top, below `InfoBoxCompany`:
 
 ## Cargo schema updates
 
-Goto the Cargo template, e.g. http://localhost:8080/index.php?title=Template:BrowserExtensionTemplate
+Go to the Cargo template, e.g. http://localhost:8080/index.php?title=Template:BrowserExtensionTemplate
 
 Regenerate the tables
 (A few UI confirmation clicks are required)
@@ -84,7 +84,7 @@ see:        https://www.mediawiki.org/wiki/Extension:Cargo/Querying_data
 ```
 curl -X POST localhost/api.php \
   -d action=cargofields \
-  -d table="BrowserExtension"
+  -d table="BrowserExtension" \
   -d format=json
 ```
 
