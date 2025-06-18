@@ -41,13 +41,13 @@ e.g. direct link:       http://localhost:8080/index.php?title=Template:BrowserEx
 ```
 <noinclude>
 {{#cargo_declare:_table = BrowserExtension
-|PopupText=String,
+|PopupText=String
 |ShortDescription=String
 }}
 </noinclude>
 <includeonly>
 {{#cargo_store:_table = BrowserExtension
-|PopupText             = {{{PopupText|}}},
+|PopupText             = {{{PopupText|}}}
 |ShortDescription      = {{{ShortDescription|}}}
 }}
 </includeonly>
@@ -74,8 +74,8 @@ Click edit and add near top, below `InfoBoxCompany`:
 
 ```
 {{BrowserExtensionTemplate
- |PopupText                = "Erosion of ownership",
- |ShortDescription         = "Peloton’s policies reflect a larger trend in consumer markets where companies leverage digital connectivity to maintain post-sale control.",
+ |PopupText                = Erosion of ownership
+ |ShortDescription         = Peloton’s policies reflect a larger trend in consumer markets where companies leverage digital connectivity to maintain post-sale control.
 }}
 ```
 
