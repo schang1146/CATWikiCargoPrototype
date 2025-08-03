@@ -9,6 +9,14 @@
       "Description": ""
     },
     {
+      "PageName": "AMD",
+      "PageID": "5046",
+      "Type": "Public",
+      "Industry": "Semiconductors, Computer hardware",
+      "Website": "https://www.amd.com/",
+      "Description": "Advanced Micro Devices or AMD is an American technology company that sells CPUs and GPUs for both commercial and enterprise use."
+    },
+    {
       "PageName": "Apple",
       "PageID": "148",
       "Type": "Public",
@@ -22,6 +30,30 @@
       "Type": "Public",
       "Industry": "Telecommunications",
       "Website": "https://att.com/",
+      "Description": ""
+    },
+    {
+      "PageName": "Autodesk",
+      "PageID": "755",
+      "Type": "Public",
+      "Industry": "Software",
+      "Website": "https://autodesk.com",
+      "Description": ""
+    },
+    {
+      "PageName": "Blink",
+      "PageID": "1969",
+      "Type": "Subsidiary",
+      "Industry": "Home security",
+      "Website": "https://blinkforhome.com/",
+      "Description": "IoT camera manufacturer acquired by Amazon in 2017. Since 2020, the cameras require a subscription for cloud storage and other necessary features."
+    },
+    {
+      "PageName": "Chase Bank",
+      "PageID": "284",
+      "Type": "Subsidiary",
+      "Industry": "Banking",
+      "Website": "https://chase.com",
       "Description": ""
     },
     {
@@ -55,6 +87,14 @@
       "Industry": "Technology",
       "Website": "https://www.google.com/",
       "Description": ""
+    },
+    {
+      "PageName": "Iberia",
+      "PageID": "5033",
+      "Type": "Private",
+      "Industry": "Transport, Airline",
+      "Website": "https://www.iberia.com/,https://www.iberia.es/,https://www.iberia.de/",
+      "Description": "Flag-carrier airline of Spain"
     },
     {
       "PageName": "Imgur",
@@ -187,14 +227,14 @@
       "Description": "Echelon pushed firmware updates blocking third-party apps, requiring server authentication & breaking QZ compatibility for users"
     },
     {
-      "PageName": "Notability Privacy Policy forced consent",
-      "PageID": "5011",
-      "Type": "Privacy",
+      "PageName": "Samsung EULA change reverse engineering",
+      "PageID": "5044",
+      "Type": "Terms of Service",
       "ArticleType": "Product",
-      "Company": "Ginger Labs",
-      "Product": "Notability",
-      "ProductLine": "",
-      "Description": "The user received a popup in the Notability app after a privacy policy change without an option to decline. They were no longer able to use the app."
+      "Company": "Samsung",
+      "Product": "samsung smart tv",
+      "ProductLine": "Samsung Smart tv",
+      "Description": "EULA update bans reverse engineering in order to keep using samsung services"
     },
     {
       "PageName": "Samsung sued over S22 performance throttle",
@@ -229,6 +269,15 @@
   ],
   "Product": [
     {
+      "PageName": "CakewalkSonarPlatinum",
+      "PageID": "5035",
+      "ArticleType": "Product",
+      "Category": "Music Production Software",
+      "Company": "Cakewalk, Gibson, Bandlab",
+      "Website": "https://www.cakewalk.com/,https://legacy.cakewalk.com/",
+      "Description": "Cakewalk's flagship Digital Audio Workstation (DAW) for music production."
+    },
+    {
       "PageName": "Disney+",
       "PageID": "2938",
       "ArticleType": "Service",
@@ -245,6 +294,42 @@
       "Company": "DJI",
       "Website": "https://www.dji.com/it/osmo-action-5-pro",
       "Description": ""
+    },
+    {
+      "PageName": "Insipiron 15 7579 Overview - Faults and Issues",
+      "PageID": "5039",
+      "ArticleType": "Product",
+      "Category": "Laptop, Ultrabook, 2-in-1",
+      "Company": "Dell",
+      "Website": "https://www.dell.com/support/product-details/product/inspiron-15-7579-2-in-1-laptop",
+      "Description": "The Dell Inspiron 15 7579 is a versatile 2-in-1 laptop that combines performance with portability. However, it faces certain faults and issues."
+    },
+    {
+      "PageName": "Insta360+",
+      "PageID": "4176",
+      "ArticleType": "Service",
+      "Category": "Cloud storage",
+      "Company": "Insta360",
+      "Website": "https://store.insta360.com/product/insta360plus",
+      "Description": "Cloud-based subscription for Insta360 cameras that offers camera replacement and warranty perks."
+    },
+    {
+      "PageName": "NetLimiter Licence from one-time-purchase to Subscription",
+      "PageID": "5047",
+      "ArticleType": "Product",
+      "Category": "",
+      "Company": "",
+      "Website": "https://www.netlimiter.com/",
+      "Description": "NetLimiter is a tool to monitor and control network traffic per-program."
+    },
+    {
+      "PageName": "Sony's WF-1000XM4 earbuds",
+      "PageID": "438",
+      "ArticleType": "Product",
+      "Category": "Earbuds",
+      "Company": "Sony",
+      "Website": "https://electronics.sony.com/audio/headphones/truly-wireless-earbuds/p/wf1000m4-Black",
+      "Description": "Users have reported rapid battery drain and overheating in one earbud following firmware update v1.4.2, occasionally resulting in battery failure or casing damage."
     }
   ],
   "ProductLine": [
