@@ -2,7 +2,7 @@ name: Run Wiki Cargo Data Export Script Periodically
 
 on:
   schedule:
-    - cron: '0 * * * *'  # every hour (UTC)
+    - cron: '0 0 * * *'  # Every day at 00:00 UTC
   workflow_dispatch:     # allows manual trigger from GitHub UI
 
 jobs:
