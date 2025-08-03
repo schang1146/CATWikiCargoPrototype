@@ -1,12 +1,21 @@
 # Usage
 
+> ![NOTE]
+> If you're cloning this repository, make sure that the mediawiki extensions are loaded/installed.
+>
+> If starting fresh, run the command:
+> `git clone --recurse-submodules $REPO_URL`
+>
+> If you've already cloned the repo, load the submodules with:
+> `git submomdule update --init --recursive`
+
 Start:  `./start.sh`
 
 Open:   http://localhost:8080/
 
 Stop:   `./stop.sh`
 
-Restore to initial state (with test Pages and emtpy cargo tables): 
+Restore to initial state (with test Pages and empty cargo tables): 
 
 `git checkout volumes`
 
@@ -32,13 +41,13 @@ e.g. direct link:       http://localhost:8080/index.php?title=Template:BrowserEx
 ```
 <noinclude>
 {{#cargo_declare:_table = BrowserExtension
-|PopupText=String,
+|PopupText=String
 |ShortDescription=String
 }}
 </noinclude>
 <includeonly>
 {{#cargo_store:_table = BrowserExtension
-|PopupText             = {{{PopupText|}}},
+|PopupText             = {{{PopupText|}}}
 |ShortDescription      = {{{ShortDescription|}}}
 }}
 </includeonly>
@@ -48,7 +57,9 @@ Summary:    `Browser Extension Cargo Template`
 
 ## Create cargo tables:
 
-(fails) `docker-compose exec -T mediawiki "cd maintenance && php cargoRecreateData.php"`
+`docker exec -it mediawiki php extensions/Cargo/maintenance/cargoRecreateData.php`
+
+OR
 
 Open: http://localhost:8080/index.php/Template:BrowserExtensionTemplate?action=recreatedata
 Click OK
@@ -63,14 +74,14 @@ Click edit and add near top, below `InfoBoxCompany`:
 
 ```
 {{BrowserExtensionTemplate
- |PopupText                = "Erosion of ownership",
- |ShortDescription         = "Peloton’s policies reflect a larger trend in consumer markets where companies leverage digital connectivity to maintain post-sale control.",
+ |PopupText                = Erosion of ownership
+ |ShortDescription         = Peloton’s policies reflect a larger trend in consumer markets where companies leverage digital connectivity to maintain post-sale control.
 }}
 ```
 
 ## Cargo schema updates
 
-Goto the Cargo template, e.g. http://localhost:8080/index.php?title=Template:BrowserExtensionTemplate
+Go to the Cargo template, e.g. http://localhost:8080/index.php?title=Template:BrowserExtensionTemplate
 
 Regenerate the tables
 (A few UI confirmation clicks are required)
@@ -84,7 +95,7 @@ see:        https://www.mediawiki.org/wiki/Extension:Cargo/Querying_data
 ```
 curl -X POST localhost/api.php \
   -d action=cargofields \
-  -d table="BrowserExtension"
+  -d table="BrowserExtension" \
   -d format=json
 ```
 

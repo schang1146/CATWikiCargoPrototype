@@ -1,0 +1,279 @@
+{
+  "Company": [
+    {
+      "PageName": "Amazon",
+      "PageID": "181",
+      "Type": "Public",
+      "Industry": "Technology",
+      "Website": "https://amazon.com/",
+      "Description": ""
+    },
+    {
+      "PageName": "Apple",
+      "PageID": "148",
+      "Type": "Public",
+      "Industry": "Electronics",
+      "Website": "https://apple.com/",
+      "Description": ""
+    },
+    {
+      "PageName": "AT&T",
+      "PageID": "824",
+      "Type": "Public",
+      "Industry": "Telecommunications",
+      "Website": "https://att.com/",
+      "Description": ""
+    },
+    {
+      "PageName": "Daikin",
+      "PageID": "5010",
+      "Type": "Private",
+      "Industry": "Home automation, Air Conditioning",
+      "Website": "http://www.daikin.com/",
+      "Description": "Manufacturer of air conditioning systems"
+    },
+    {
+      "PageName": "Deutsche Kreditbank (DKB)",
+      "PageID": "5006",
+      "Type": "",
+      "Industry": "Finance",
+      "Website": "https://www.dkb.de/",
+      "Description": "DKB is Germany's second biggest direct bank."
+    },
+    {
+      "PageName": "Ford",
+      "PageID": "146",
+      "Type": "Public",
+      "Industry": "Automotive",
+      "Website": "https://ford.com/",
+      "Description": ""
+    },
+    {
+      "PageName": "Google",
+      "PageID": "183",
+      "Type": "Subsidiary",
+      "Industry": "Technology",
+      "Website": "https://www.google.com/",
+      "Description": ""
+    },
+    {
+      "PageName": "Imgur",
+      "PageID": "2580",
+      "Type": "Private",
+      "Industry": "Media Hosting",
+      "Website": "https://imgur.com/",
+      "Description": "Imgur is a media company and image sharing platform - originally founded by Alan Schaaf, it is now bought and owned by MediaLab AI, Inc."
+    },
+    {
+      "PageName": "Mercedes Benz",
+      "PageID": "2148",
+      "Type": "Subsidiary",
+      "Industry": "Automotive",
+      "Website": "https://www.mercedes-benz.com/",
+      "Description": "Mercedes-Benz is a German automotive manufacturer that has taken away and/or disabled features shortly after their sale"
+    },
+    {
+      "PageName": "Merkury Innovations",
+      "PageID": "4979",
+      "Type": "Private",
+      "Industry": "Electronics, Home automation, Technology",
+      "Website": "https://merkuryinnovations.com/",
+      "Description": "Specialty retail company specializing in smart home devices, LED lighting, and personal audio equipment."
+    },
+    {
+      "PageName": "Microsoft",
+      "PageID": "158",
+      "Type": "Public",
+      "Industry": "Information Technology",
+      "Website": "https://www.microsoft.com/",
+      "Description": "Microsoft is one of the \"Big Five\" tech giants who has had issues ranging from antitrust issues to monopolies"
+    },
+    {
+      "PageName": "Nissan",
+      "PageID": "979",
+      "Type": "Public",
+      "Industry": "Automotive",
+      "Website": "https://www.nissan-global.com/",
+      "Description": ""
+    },
+    {
+      "PageName": "Pinterest",
+      "PageID": "2770",
+      "Type": "Public",
+      "Industry": "Social media service",
+      "Website": "https://pinterest.com/",
+      "Description": "Photo sharing website founded in 2009 where users can \"pin\" various images to their profile and add them to collections."
+    },
+    {
+      "PageName": "Snapchat",
+      "PageID": "2440",
+      "Type": "Public",
+      "Industry": "Social media service",
+      "Website": "https://snapchat.com/",
+      "Description": "Messaging app founded in 2011 that popularized streaks, disappearing messages, and images called \"snaps\"."
+    },
+    {
+      "PageName": "Tea Dating Advice",
+      "PageID": "5027",
+      "Type": "Private",
+      "Industry": "Social media service",
+      "Website": "https://www.teaforwomen.com/",
+      "Description": "An app founded in 2023 that allows women to share information about and review local men regarding dating. The app requires identity verification for users."
+    },
+    {
+      "PageName": "Telecom Egypt",
+      "PageID": "4983",
+      "Type": "Public (State-owned majority)",
+      "Industry": "Telecommunications",
+      "Website": "https://www.te.eg/",
+      "Description": ""
+    },
+    {
+      "PageName": "Toyota",
+      "PageID": "513",
+      "Type": "Public",
+      "Industry": "Automotive",
+      "Website": "https://toyota.com/",
+      "Description": ""
+    },
+    {
+      "PageName": "Wemo",
+      "PageID": "2168",
+      "Type": "Subsidiary",
+      "Industry": "Home automation",
+      "Website": "https://www.belkin.com/products/wemo-smart-home/",
+      "Description": ""
+    }
+  ],
+  "Incident": [
+    {
+      "PageName": "Brother ink lockout & quality sabotage",
+      "PageID": "2552",
+      "Type": "Digital restrictions,Firmware lockout",
+      "ArticleType": "Product",
+      "Company": "Brother Industries Ltd.",
+      "Product": "",
+      "ProductLine": "",
+      "Description": "Brother pushed firmware updates that degrade non-OEM toner's print quality - forcing consumers to buy more expensive genuine Brother toner"
+    },
+    {
+      "PageName": "Brother printer dcp 3550 cdw cartridges failure",
+      "PageID": "2482",
+      "Type": "Planned Obsolesence,Third Party",
+      "ArticleType": "",
+      "Company": "Brother Industries Ltd.",
+      "Product": "",
+      "ProductLine": "",
+      "Description": ""
+    },
+    {
+      "PageName": "Disney wrongful-death lawsuit",
+      "PageID": "220",
+      "Type": "Terms of Service",
+      "ArticleType": "Service",
+      "Company": "Disney",
+      "Product": "Disney+",
+      "ProductLine": "",
+      "Description": "TBD"
+    },
+    {
+      "PageName": "Echelon fitness firmware lockout",
+      "PageID": "4972",
+      "Type": "Firmware lockout",
+      "ArticleType": "Product",
+      "Company": "Echelon Fitness",
+      "Product": "exercise equipment",
+      "ProductLine": "echelon exercie equipment",
+      "Description": "Echelon pushed firmware updates blocking third-party apps, requiring server authentication & breaking QZ compatibility for users"
+    },
+    {
+      "PageName": "Notability Privacy Policy forced consent",
+      "PageID": "5011",
+      "Type": "Privacy",
+      "ArticleType": "Product",
+      "Company": "Ginger Labs",
+      "Product": "Notability",
+      "ProductLine": "",
+      "Description": "The user received a popup in the Notability app after a privacy policy change without an option to decline. They were no longer able to use the app."
+    },
+    {
+      "PageName": "Samsung sued over S22 performance throttle",
+      "PageID": "4967",
+      "Type": "Digital restrictions",
+      "ArticleType": "Product",
+      "Company": "Samsung",
+      "Product": "Samsung Galaxy S22 series",
+      "ProductLine": "Samsung Galaxy S",
+      "Description": "samsung sued over samsung throttling on purpose"
+    },
+    {
+      "PageName": "Unable to opt out of an arbitration agreement for a Gotham Steel",
+      "PageID": "5001",
+      "Type": "Terms of Service",
+      "ArticleType": "Product",
+      "Company": "Gotham Steel",
+      "Product": "Cooking Pan",
+      "ProductLine": "Gotham Steel Diamond",
+      "Description": "The arbitration agreement for Gotham Steel does not allow consumers to opt out."
+    },
+    {
+      "PageName": "Walmart's refusal to replace bricked Onn devices after forced update",
+      "PageID": "5008",
+      "Type": "Firmware lockout",
+      "ArticleType": "Product",
+      "Company": "Walmart",
+      "Product": "Onn 4K Box, Onn 4K Pro, Onn HD Stick, Chromecast 4K, Chromecast HD",
+      "ProductLine": "Onn",
+      "Description": "Walmart refuses to replace bricked Onn devices after a forced Android update bricked devices, with devices over a year old being ineligible for refund"
+    }
+  ],
+  "Product": [
+    {
+      "PageName": "Disney+",
+      "PageID": "2938",
+      "ArticleType": "Service",
+      "Category": "Streaming Services",
+      "Company": "Disney",
+      "Website": "https://www.disneyplus.com/",
+      "Description": "Disney+ is a video streaming service created by Disney in 2019"
+    },
+    {
+      "PageName": "DJI Osmo Action 5 Pro",
+      "PageID": "1446",
+      "ArticleType": "Product",
+      "Category": "Cameras",
+      "Company": "DJI",
+      "Website": "https://www.dji.com/it/osmo-action-5-pro",
+      "Description": ""
+    }
+  ],
+  "ProductLine": [
+    {
+      "PageName": "Forced User Agreement on Jetbrains IntelliJ software",
+      "PageID": "4984",
+      "ArticleType": "Product",
+      "Category": "Software",
+      "Company": "Jetbrains",
+      "Website": "https://www.jetbrains.com/",
+      "Description": "Jetbrains Developer Tools is a set of IDEs designed for major programming languages."
+    },
+    {
+      "PageName": "Google Pixel",
+      "PageID": "1376",
+      "ArticleType": "Product",
+      "Category": "Smartphones",
+      "Company": "Google",
+      "Website": "https://pixel.google.com",
+      "Description": ""
+    },
+    {
+      "PageName": "Google Pixel Watch",
+      "PageID": "2510",
+      "ArticleType": "Product",
+      "Category": "Smartwatches",
+      "Company": "Google",
+      "Website": "https://store.google.com/us/product/pixel_watch_3",
+      "Description": ""
+    }
+  ]
+}
