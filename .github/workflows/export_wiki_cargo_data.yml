@@ -1,0 +1,42 @@
+name: Run Wiki Cargo Data Export Script Periodically
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # every hour (UTC)
+  workflow_dispatch:     # allows manual trigger from GitHub UI
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt 
+
+      - name: Run Python script
+        env:
+          WIKI_USERNAME: ${{ secrets.WIKI_USERNAME }}
+          WIKI_BOTNAME: ${{ secrets.WIKI_BOTNAME }}
+          WIKI_PASSWORD: ${{ secrets.WIKI_PASSWORD }}
+
+        run: python scripts/export_cargo.py
+
+      - name: Clone target repo
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git clone https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/WKDLabs/CATWikiCargoPrototype.git
+          cp all_cargo_combined.json CATWikiCargoPrototype/data/    
+          cd CATWikiCargoPrototype
+          git add .
+          git commit -m "Update Cargo export from scheduled workflow"
+          git push origin main
