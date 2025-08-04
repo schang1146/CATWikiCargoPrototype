@@ -39,10 +39,11 @@ jobs:
           git clone https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/WKDLabs/CATWikiCargoPrototype.git
           cp all_cargo_combined.json CATWikiCargoPrototype/data/    
           cd CATWikiCargoPrototype
+          git checkout export
           git add .
           if ! git diff --cached --quiet; then
             git commit -m "Update Cargo export"
-            git push origin export
+            git push
           else
             echo "No changes to commit"
           fi
