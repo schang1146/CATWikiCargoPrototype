@@ -41,7 +41,7 @@ TABLE_FIELDS = {
     "Company": ["_pageName=PageName", "_pageID=PageID", "Description", "Industry", "ParentCompany", "Type", "Website" ],
     "Incident": ["_pageName=PageName", "_pageID=PageID", "Company", "StartDate", "EndDate", "Status", "ProductLine", "Product", "Type", "Description" ],
     "Product": ["_pageName=PageName", "_pageID=PageID", "Category", "Company", "Description", "ProductLine", "Website"],
-    "ProductLine": [ "_pageName=PageName", "_pageID=PageID", "Category","Company", "Description", "Website"],
+    "ProductLine": [ "_pageName=PageName", "_pageID=PageID", "Category", "Company", "Description", "Website"],
 }
 
 PAGE_SIZE = 500  # Max limit per MediaWiki request
