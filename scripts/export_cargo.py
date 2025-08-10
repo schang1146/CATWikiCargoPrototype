@@ -1,8 +1,6 @@
 
 # https://consumerrights.wiki/Special:CargoTables
 
-# https://consumerrights.wiki/Template:CompanyCargo
-
 import argparse
 import csv
 import json
@@ -27,8 +25,6 @@ params = {
 }
 res = session.get(url=api_url, params=params)
 token = res.json()["query"]["tokens"]["logintoken"]
-
-print(f"Token={token}")
 
 # Authenticate
 auth_data = {
